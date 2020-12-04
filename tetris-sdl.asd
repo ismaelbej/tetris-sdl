@@ -1,6 +1,6 @@
-;;;; tetris-opengl.asd
+;;;; tetris-sdl.asd
 
-(asdf:defsystem #:tetris-opengl
+(asdf:defsystem #:tetris-sdl
   :description "a simple game tetris clone"
   :author "Ismael Bejarano <ismaelbej@gmail.com>"
   :license  "MIT"
@@ -8,4 +8,4 @@
   :serial t
   :depends-on (#:lispbuilder-sdl)
   :components ((:file "package")
-               (:file "tetris-opengl")))
+               (:file "tetris-sdl")))

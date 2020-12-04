@@ -1,5 +1,6 @@
 ;;;; package.lisp
 
-(defpackage #:tetris-opengl
+(defpackage #:tetris-sdl
   (:use #:cl)
   (:export :play))
+
